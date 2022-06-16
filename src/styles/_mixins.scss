@@ -1,0 +1,18 @@
+@use 'sass:map';
+@import './_variables';
+
+@mixin breakMin($breakpoint) {
+	@media (min-width: map.get($breakpoints, $breakpoint)) {
+		@content;
+	}
+}
+
+@mixin breakMax($breakpoint) {
+	@media (max-width: map.get($breakpoints, $breakpoint)) {
+		@content;
+	}
+}
+
+@function color($color) {
+	@return map.get($darkColors, $color);
+}
