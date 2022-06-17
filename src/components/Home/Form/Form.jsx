@@ -97,7 +97,7 @@ function HomeForm({ setPercentage }) {
 							id={`cards.${index}.name`}
 							name={`cards.${index}.name`}
 							label='Name'
-							className={styles.nameInput}
+							className={styles.formInput2}
 							value={formik.values.cards[index].name}
 							onChange={formik.handleChange}
 							error={Boolean(formik?.errors?.cards?.at(index)?.name)}

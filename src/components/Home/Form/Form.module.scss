@@ -8,6 +8,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .cards {
@@ -16,15 +17,14 @@
 
 div.formInput1 {
 	margin: 8px;
-	width: 200px;
+	width: 160px;
 }
 
 div.formInput2 {
 	margin: 8px;
 	width: 120px;
-}
 
-div.nameInput {
-	margin: 8px;
-	width: 160px;
+	@include breakMax(xs) {
+		width: 160px;
+	}
 }
