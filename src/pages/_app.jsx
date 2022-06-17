@@ -8,6 +8,7 @@ import { getPalette, getTypography } from '../libs/theme';
 import { ColorModeProvider } from '../libs/colorMode';
 import React from 'react';
 import Header from '../common/components/Header/Header';
+import Footer from '../common/components/Footer/Footer';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();
@@ -38,7 +39,7 @@ function MyApp(props) {
 					<CssBaseline />
 					<Header colorMode={mode} setColorMode={setMode} />
 					<Component {...pageProps} />
-					{/* <Footer /> */}
+					<Footer />
 				</ThemeProvider>
 			</ColorModeProvider>
 		</CacheProvider>

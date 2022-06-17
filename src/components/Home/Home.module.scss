@@ -1,1 +1,48 @@
 @import '../../styles/mixins';
+
+.home {
+	min-height: calc(100vh - 80px);
+	padding: 40px 0;
+
+	& > div {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+	}
+
+	b {
+		color: color(primary);
+	}
+}
+
+.homeForm {
+	margin: 40px 0 0;
+	text-align: left;
+}
+
+.formRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards {
+	margin: 24px 0 8px;
+}
+
+div.formInput1 {
+	margin: 8px;
+	width: 200px;
+}
+
+div.formInput2 {
+	margin: 8px;
+	width: 120px;
+}
+
+div.nameInput {
+	margin: 8px;
+	width: 160px;
+}

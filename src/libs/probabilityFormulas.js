@@ -16,9 +16,7 @@ export const probability = (form) => {
 
 export const factorial = (number) => {
 	let total = 1;
-	for (let i = number; i > 0; i--) {
-		total = total * i;
-	}
+	for (let i = number; i > 0; i--) total = total * i;
 	return total;
 };
 

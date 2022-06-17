@@ -9,10 +9,11 @@ function Header({ colorMode, setColorMode }) {
 
 	return (
 		<header className={styles.header}>
-			<Container maxWidth='lg'>
+			<Container maxWidth='xl'>
 				<Button
 					color='primary'
 					variant='outlined'
+					className='iconBtn'
 					onClick={toggleColorMode}
 				>
 					{colorMode == 'dark' ? (

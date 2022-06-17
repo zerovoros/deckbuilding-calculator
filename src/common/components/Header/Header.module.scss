@@ -1,6 +1,12 @@
 @import '../../../styles/mixins';
 
 .header {
-	height: 80px;
+	height: 48px;
 	display: flex;
+
+	& > div {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+	}
 }

@@ -1,3 +1,5 @@
+// https://coolors.co/palette/5865f2-1c1b29-292841-312f51-8684bd-dbe7ff-ffffff-000000-23272a-2c2f33
+
 export const getPalette = (mode) => ({
 	palette: {
 		mode,
@@ -7,12 +9,24 @@ export const getPalette = (mode) => ({
 					main: '#5865F2',
 					contrastText: '#FFF',
 				},
+				secondary: {
+					main: '#DBE7FF',
+					constrasText: '#1C1B29'
+				},
+				background: {
+					default: '#DBE7FF',
+					paper: '#DBE7FF',
+				},
 			}
 			:
 			{
 				primary: {
 					main: '#5865F2',
 					contrastText: '#1C1B29',
+				},
+				secondary: {
+					main: '#1C1B29',
+					constrasText: '#FFF'
 				},
 				background: {
 					default: '#1C1B29',
@@ -26,7 +40,7 @@ export const getPalette = (mode) => ({
 
 export const getTypography = () => ({
 	typography: {
-		fontFamily: 'Oxygen, Roboto, Arial, sans-serif',
+		fontFamily: 'Oxygen, Roboto, sans-serif',
 		h1: {
 			fontSize: '48px',
 			fontWeight: '700',
