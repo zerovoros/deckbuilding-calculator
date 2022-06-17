@@ -11,7 +11,7 @@ function Footer() {
 					created by zerovoros
 				</Typography>
 
-				<Link href='https://github.com/zerovoros'>
+				<Link href='https://github.com/zerovoros/deckbuilding-calculator'>
 					<a target='_blank'>
 						<GitHub />
 					</a>
