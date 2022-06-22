@@ -16,14 +16,12 @@ function Home() {
 
 			<main className={styles.home}>
 				<Container maxWidth='xl'>
-					<Typography variant='h1'>
-						Deckbuilding Calculator
-					</Typography>
+					<Typography variant='h1'>Deckbuilding Calculator</Typography>
 
 					<HomeForm setPercentage={setPercentage} />
 
 					<Typography variant='h3' component='p'>
-						You have <b>{percentage}%</b> chance of opening this hand.
+						You have <b>{percentage}%</b> chance of drawing these cards.
 					</Typography>
 				</Container>
 			</main>

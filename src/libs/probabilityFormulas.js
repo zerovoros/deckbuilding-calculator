@@ -1,4 +1,4 @@
-export const probability = (form) => {
+export const probability = form => {
 	const { deckSize, handSize, cards } = form;
 	let total = 1;
 
@@ -14,7 +14,7 @@ export const probability = (form) => {
 	return Number.parseFloat(total * 100).toFixed(2);
 };
 
-export const factorial = (number) => {
+export const factorial = number => {
 	let total = 1;
 	for (let i = number; i > 0; i--) total = total * i;
 	return total;

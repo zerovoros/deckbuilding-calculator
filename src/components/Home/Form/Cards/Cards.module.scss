@@ -1,0 +1,21 @@
+@import '../../../../styles/mixins';
+
+.formRow {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.cards {
+	margin: 24px 0 8px;
+}
+
+div.cardsInput {
+	margin: 8px;
+	width: 120px;
+
+	@include breakMax(xs) {
+		width: 160px;
+	}
+}

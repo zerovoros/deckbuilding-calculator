@@ -20,7 +20,7 @@ function MyApp(props) {
 		() => ({
 			// The dark mode switch would invoke this method
 			toggleColorMode: () => {
-				setMode((prevMode) => prevMode === 'dark' ? 'light' : 'dark');
+				setMode(prevMode => prevMode === 'dark' ? 'light' : 'dark');
 			},
 		}),
 		[],

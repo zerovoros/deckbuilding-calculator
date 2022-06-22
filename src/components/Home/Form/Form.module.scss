@@ -11,20 +11,7 @@
 	flex-wrap: wrap;
 }
 
-.cards {
-	margin: 24px 0 8px;
-}
-
-div.formInput1 {
+div.formInput {
 	margin: 8px;
 	width: 160px;
-}
-
-div.formInput2 {
-	margin: 8px;
-	width: 120px;
-
-	@include breakMax(xs) {
-		width: 160px;
-	}
 }

@@ -1,6 +1,6 @@
 // https://coolors.co/palette/5865f2-1c1b29-292841-312f51-8684bd-dbe7ff-ffffff-000000-23272a-2c2f33
 
-export const getPalette = (mode) => ({
+export const getPalette = mode => ({
 	palette: {
 		mode,
 		...(mode === 'light' ?
